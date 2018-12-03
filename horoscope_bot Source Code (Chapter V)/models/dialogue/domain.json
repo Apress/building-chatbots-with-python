@@ -1,0 +1,26 @@
+{
+  "states": [
+    "intent_dob_intent",
+    "intent_get_horoscope",
+    "intent_greeting",
+    "intent_subscription",
+    "entity_horoscope_sign",
+    "entity_DD",
+    "entity_MM",
+    "entity_subscribe",
+    "entity_dob_intent",
+    "slot_DD_0",
+    "slot_MM_0",
+    "slot_horoscope_sign_0",
+    "slot_subscribe_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_ask_horoscope_sign",
+    "prev_utter_ask_dob",
+    "prev_utter_subscribe",
+    "prev_get_todays_horoscope",
+    "prev_subscribe_user"
+  ]
+}

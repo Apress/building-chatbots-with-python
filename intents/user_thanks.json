@@ -1,0 +1,28 @@
+{
+  "id": "5646f50e-c4ed-4004-b4d8-17c2e0dd5d27",
+  "name": "user_thanks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks a lot for your cooperation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522621388,
+  "fallbackIntent": false,
+  "events": []
+}

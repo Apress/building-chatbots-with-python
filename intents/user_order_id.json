@@ -1,0 +1,41 @@
+{
+  "id": "9a39f983-74e8-487c-bb67-a22b728fc3d2",
+  "name": "user_order_id",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "926ab722-dd21-41d2-b9e2-4d69c2bfbdad",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "order_id",
+          "value": "$order_id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Order Status for Order ID: $order_id .Restaurant is preparing your food. Please wait while we are working on it.",
+            "Order Status for Order ID: $order_id .The delivery guy has picked up your food. Please wait for 15-20 minutes.",
+            "Order Status for Order ID: $order_id .The delivery guy is in your locality, your food will arrive in about 5 minutes."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525033969,
+  "fallbackIntent": false,
+  "events": []
+}

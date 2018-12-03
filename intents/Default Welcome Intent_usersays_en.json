@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6ecbc76a-dbaf-4367-a03d-e45615ff0974",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522623050
+  },
+  {
+    "id": "0245aed2-d73e-4cf8-9223-25a2bae24abf",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522623050
+  },
+  {
+    "id": "b2e7aa8e-136a-4ead-b107-8258d5238447",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522623050
+  },
+  {
+    "id": "92863be1-dd9a-4aa0-8913-50e4347a1e12",
+    "data": [
+      {
+        "text": "Hello UberEats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522623050
+  },
+  {
+    "id": "31ff3927-8a5e-4d8c-8563-473ef41b2a05",
+    "data": [
+      {
+        "text": "Hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522623050
+  }
+]

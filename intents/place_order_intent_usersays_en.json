@@ -1,0 +1,146 @@
+[
+  {
+    "id": "f7348af0-69f6-4123-806f-c3c0cc6a007c",
+    "data": [
+      {
+        "text": "I want to place an order for chinese food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "8f775f05-16fa-4452-b17e-e768f09cdd4f",
+    "data": [
+      {
+        "text": "I am looking to order Indian food.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "d95e989a-32d9-444b-beb0-5d94bd069db5",
+    "data": [
+      {
+        "text": "I want to order food asap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "ba1fb5fc-b943-4361-8f67-0048c9814767",
+    "data": [
+      {
+        "text": "I want to place an order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "a26f0962-a49d-4dd7-8ce7-f67d9fddf672",
+    "data": [
+      {
+        "text": "I want food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "6c53c6ec-3987-4926-ac32-bc6ab994aad2",
+    "data": [
+      {
+        "text": "I am looking to order chinese food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "998dab13-8611-441b-95f5-7efc15fb963a",
+    "data": [
+      {
+        "text": "I am looking to order thai food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "9e397b04-b0d3-479f-abc5-419739d1caf7",
+    "data": [
+      {
+        "text": "Can you please take my order for food?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "adbf3200-f170-496b-a62c-ac1ed64c0c7d",
+    "data": [
+      {
+        "text": "Would your please help me to order food ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "cf282ad6-acc7-4329-b6f1-b812ff998070",
+    "data": [
+      {
+        "text": "I want to order food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "ab0521c1-edab-4d50-889b-82c90134db68",
+    "data": [
+      {
+        "text": "Take my order please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  },
+  {
+    "id": "d392cabc-a4f8-48c0-b98a-9a551e1b57fb",
+    "data": [
+      {
+        "text": "Can you please order food for me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522622227
+  }
+]

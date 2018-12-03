@@ -1,0 +1,403 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Satisfy);
+
+
+/* General */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* General end*/
+
+
+/* Demo */
+.hd1 {
+  margin-top: 15vh;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.powered {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.powered img {
+  width: 110px;
+  position: relative;
+  top: 8px;
+}
+
+.footer {
+  margin-top: 50px;
+  position: absolute;
+  bottom: 40px;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.foo-txt {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: cursive;
+  text-shadow: none;
+  color: #272727;
+}
+
+.fa-heart {
+  color: #fb2323;
+}
+/* Demo end */
+
+
+
+/* MyBot */
+mybot.center .chatCont,
+mybot.center .profile_div {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+mybot.left .chatCont,
+mybot.left .profile_div {
+  left: 0;
+}
+
+mybot .chatCont {
+  position: fixed;
+  width: 400px;
+  height: 400px !important;
+  border: 1px solid #dcdcdc;
+  bottom: 65px;
+  right: 0;
+  background: #efe7dd url(https://s3.amazonaws.com/buildingchatbotswithpython/bg2.png) repeat;
+  border-top-left-radius: 3px;
+  z-index: 10000;
+display: none;
+}
+
+mybot .close {
+  position: absolute;
+  right: 5px;
+  margin-top: -60px;
+  color: #868686;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+mybot .bot_profile {
+  position: absolute;
+  right: 0;
+  margin-top: -45px;
+  text-align: center;
+  width: 400px;
+  display: none;
+  z-index: 1000;
+}
+
+mybot .bot_p_img {
+  width: 80px;
+  border-radius: 50%;
+  width: 80px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16), 0 0px 10px 0 rgba(0,0,0,0.12);
+}
+
+mybot .chatForm {
+  position: absolute;
+  bottom: -65px;
+	right: 0;
+	margin-bottom: 0;
+	width: 400px;
+  display: none;
+}
+
+mybot .bot-txt,
+mybot .bot-txt:focus {
+  box-shadow: none;
+  border-radius: 0;
+  height: 66px;
+  border: 0;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+}
+
+mybot .resultDiv .botResult {
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 400px;
+  float: left;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
+  border-top-left-radius: 0;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 100%;
+  position: relative;
+}
+
+mybot .resultDiv .botResult:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-right: 15px solid #fff;
+  left: -15px;
+  margin-top: -12px;
+}
+
+mybot .resultDiv .userEnteredText {
+  background: #9C27B0;
+  float: right;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 400px;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
+  border-top-right-radius: 0;
+  position: relative;
+  left: -6px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+mybot .resultDiv .userEnteredText:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-left: 15px solid #9C27B0;
+  position: absolute;
+  right: -15px;
+  margin-top: -12px;
+}
+
+mybot .profile_div {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 240px;
+  cursor: pointer;
+}
+
+mybot .img-profile {
+  width: 65px;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16), 0 0px 10px 0 rgba(0,0,0,0.12);
+  background: white;
+  border-radius: 50px;
+}
+
+mybot .col-hgt {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 10px;
+}
+
+mybot .chat-txt {
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
+  padding: 15px 15px;
+  border-radius: 50px;
+}
+
+/* Spinner start */
+mybot .spinner {
+  background: #9C27B0;
+  width: 70px;
+  text-align: center;
+  display: none;
+  border-radius: 4px;
+  position: relative;
+  top: -7px;
+  left: 19px;
+  padding: 7px 10px;
+  border-top-left-radius: 0;
+}
+
+mybot .spinner:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-right: 15px solid #9C27B0;
+  left: -15px;
+  margin-top: -7px;
+}
+
+mybot .spinner > div {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  margin-right: 5px;
+}
+
+mybot .spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+mybot .spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+/* Spinner End */
+
+
+/* Suggestions */
+mybot .suggestion {
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 400px;
+  float: left;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16), 0 0px 10px 0 rgba(0,0,0,0.12);
+  margin-left: 5px;
+  border-top-left-radius: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+mybot .suggestion:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-right: 15px solid #fff;
+  left: -15px;
+  margin-top: -12px;
+}
+
+mybot .suggestion .sugg-options {
+  display: block;
+  background: #9c27b0;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+mybot .suggestion .sugg-title {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+mybot .suggestion span:last-child {
+  margin-bottom: 0;
+}
+/* Suggestions end */
+
+.resultDiv {
+  padding: 35px 20px 30px 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+  mybot .resultDiv .userEnteredText,
+  mybot .resultDiv .botResult,
+  mybot .suggestion {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  mybot .chatCont,
+  mybot .chatForm {
+    width: 100%;
+  }
+  mybot .chatCont {
+    height: 70% !important;
+  }
+}
+/* MyBot end */

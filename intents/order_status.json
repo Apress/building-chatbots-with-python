@@ -1,0 +1,28 @@
+{
+  "id": "a76ae537-b648-4e81-a03d-eca7bc84b136",
+  "name": "order_status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Can you please help me with your order ID?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522619389,
+  "fallbackIntent": false,
+  "events": []
+}

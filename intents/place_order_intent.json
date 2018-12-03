@@ -1,0 +1,32 @@
+{
+  "id": "dae79eba-56d6-400d-9648-abc2b10b9257",
+  "name": "place_order_intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure, What would you like to order today ?",
+            "Definitely, What would you like to have today ?",
+            "Certainly, I\u0027ll try to help you with that. What are you feeling like eating today ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522622227,
+  "fallbackIntent": false,
+  "events": []
+}
